@@ -1,4 +1,5 @@
 
+
 import {Row,Form,message,Input, Button, Typography } from 'antd';
 import { useState } from 'react';
 
@@ -71,7 +72,7 @@ function SignUpForm() {
 }
 
 export default SignUpForm;
-
+  
 
 // function SignInForm() {
 //   
@@ -200,3 +201,4 @@ export default SignUpForm;
 
  
 // export default SignUpForm
+

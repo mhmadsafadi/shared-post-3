@@ -1,0 +1,39 @@
+:root{
+    --main-color: #2B60D8
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1.2rem auto;
+}
+navbar .user-nav-menu{
+    display: flex;
+    gap: 0.6rem;
+    font-size: 1.3rem;
+}
+navbar .user-nav-menu svg{
+    fill: var(--main-color);
+}
+
+.post-card-home{
+    width: 1200px;
+    margin: auto;
+    margin: 1rem auto;
+}
+.post-card-home .ant-card-body{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.page-header{
+    width: 1200px;
+    margin: auto;
+}
