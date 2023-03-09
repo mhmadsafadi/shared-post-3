@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   margin: 0 auto;
   text-align: center;
@@ -60,3 +61,12 @@ label{
 .para a{
   color: #2D65E4;
 }
+=======
+*{
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+  color: #000;
+  box-sizing: border-box;
+}
+>>>>>>> 167ce2cbed0576dede961da8960c496ac0589f9c
