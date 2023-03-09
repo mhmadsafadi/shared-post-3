@@ -13,14 +13,13 @@ import CustomModal from './Components/CustomModal/CustomModal';
 
 export const App = () => {
 
-function App() {
   return (
     <div className="App">
       <Layout>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/login" element={<SignInForm />} />
-          <Route path="/signup" element={<SignUpForm />} />
+          <Route path="/" element={<SignUpForm />} />
         </Routes>
       </Layout>
       </div>
@@ -29,4 +28,3 @@ function App() {
 
 }
 export default App;
-

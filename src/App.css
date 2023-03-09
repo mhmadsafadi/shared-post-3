@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+*{
+  padding: 0px;
+  margin: 0px;
+  color: #000;
+  box-sizing: border-box;
+}
+
 #root {
   margin: 0 auto;
   text-align: center;
@@ -10,14 +16,13 @@
   padding: 0 15px;
   margin: auto;
 }
-.hold-logo{
 
-}
 .heading{
-  font-size: 22px;
   font-weight: bold;
   margin-bottom: 5px;
   text-align: left;
+  font: normal normal bold 28px/57px Lato;
+color: #100F0F;
 }
 .description{
   font-size: 22px;
@@ -60,13 +65,8 @@ label{
 }
 .para a{
   color: #2D65E4;
+  text-decoration: none;
+  
 }
-=======
-*{
-  padding: 0px;
-  margin: 0px;
-  background-color: #fff;
-  color: #000;
-  box-sizing: border-box;
-}
->>>>>>> 167ce2cbed0576dede961da8960c496ac0589f9c
+
+
