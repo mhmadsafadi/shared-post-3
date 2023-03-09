@@ -12,7 +12,7 @@ const onFinishFailed = (errorInfo) => {
 };
 
 function SignInForm() {
-
+  const [email, setEmail] = useState("");
 
         
   return (
