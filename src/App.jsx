@@ -1,6 +1,5 @@
 
 import { Route, Routes } from "react-router-dom";
-import Layout from "./Layout";
 import Home from "./pages/Home";
 import SignInForm from "./pages/SignInForm";
 import SignUpForm from "./pages/SignUpForm";
@@ -11,22 +10,17 @@ import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
 import CustomModal from './Components/CustomModal/CustomModal';
 
 
-export const App = () => {
+const App = () => {
 
-function App() {
-  return (
-    <div className="App">
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<SignInForm />} />
-          <Route path="/signup" element={<SignUpForm />} />
-        </Routes>
-      </Layout>
+    return (
+      <div className="App">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<SignInForm />} />
+            <Route path="/signup" element={<SignUpForm />} />
+          </Routes>
       </div>
-
-)
-
-}
+    )
+  }
 export default App;
 

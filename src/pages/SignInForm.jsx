@@ -24,11 +24,11 @@ function SignInForm() {
 
         <div className="content-sec">
             <div className='form-wrapper'>
-                <div class="logo">
-                    <img src={Logo} alt="Logo" class="img-fluid" />
+                <div className="logo">
+                    <img src={Logo} alt="Logo" className="img-fluid" />
                 </div>
-                <h2 class="heading">Login</h2>
-                <p class="description">Fill the following information to access your account!</p>
+                <h2 className="heading">Login</h2>
+                <p className="description">Fill the following information to access your account!</p>
                 <Form
                   name="basic"
                   labelCol={{
