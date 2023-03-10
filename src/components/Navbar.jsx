@@ -6,6 +6,7 @@ import { SearchOutlined, UserOutlined } from '@ant-design/icons';
 
 
 const Navbar = () => {
+
   return (
     <navbar>
         <Link to='/'>
@@ -14,7 +15,7 @@ const Navbar = () => {
         <Input size="large" placeholder="large size" prefix={<SearchOutlined />} style={{ width: 400 }}/>
 
         <div className='user-nav-menu'>
-            <span>User Name</span>
+            <span>Heba</span>
             <UserOutlined />
         </div>
     </navbar>
@@ -22,3 +23,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+// const userData=localStorage.getItem('data');
+// const testUserData =JSON.parse(userData);
+// const name =testUserData.name;
+// console.log("name");
+// console.log("data");
