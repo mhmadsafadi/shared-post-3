@@ -30,10 +30,16 @@ navbar .user-nav-menu svg{
 }
 .post-card-home .ant-card-body{
     display: flex;
-    align-items: center;
     gap: 1rem;
 }
-.page-header{
+.page-header {
     width: 1200px;
     margin: auto;
+}
+.upload{
+    width: 476px;
+    margin: auto;
+    margin: 0rem auto; 
+    border: 1px dashed #707070;
+    text-align: center;
 }
