@@ -1,13 +1,15 @@
 import React from 'react';
 import { Modal } from 'antd';
 
-export const CustomModal = ({ visible, title, content, onCancel }) => {
+export const CustomModal = ({ open, title, content, onCancel }) => {
     return (
         <Modal
-          visible={visible}
+          open={open}
           title={title}
           onCancel={onCancel}
           footer={null}
+          className="common-modal"
+          width={700}
         >
           {content}
         </Modal>

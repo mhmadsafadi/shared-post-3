@@ -4,11 +4,7 @@ import Layout from "./Layout";
 import Home from "./pages/Home";
 import SignInForm from "./pages/SignInForm";
 import SignUpForm from "./pages/SignUpForm";
-import { useState } from 'react'
-import './App.css'
-import {message, Image, Form,Button,Input,Radio, Space , Typography, Upload } from 'antd';
-import { LoadingOutlined, PlusOutlined } from '@ant-design/icons';
-import CustomModal from './Components/CustomModal/CustomModal';
+import './App.css';
 
 
 export const App = () => {
@@ -17,7 +13,7 @@ export const App = () => {
     <div className="App">
       <Layout>
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<SignInForm />} />
           <Route path="/" element={<SignUpForm />} />
         </Routes>
