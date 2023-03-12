@@ -55,8 +55,8 @@ function SignInForm() {
  
                 <div className="logo">
                     <img src={Logo} alt="Logo" className="img-fluid" />
-                <div class="logo" style={{marginTop:"60px"}}>
-                    <img src={Logo} alt="Logo" class="img-fluid" style={{width:"113.1px",height:"113px",marginBottom:"10px"}} />
+                <div className="logo" style={{marginTop:"60px"}}>
+                    <img src={Logo} alt="Logo" className="img-fluid" style={{width:"113.1px",height:"113px",marginBottom:"10px"}} />
                 </div>
                 <h2 className="heading">Login</h2>
                 <p className="description">Fill the following information to access your account!</p>

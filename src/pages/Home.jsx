@@ -8,7 +8,7 @@ import "../index.css";
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
-  const [posts, setPosts] = useState([]);
+  // const [posts, setPosts] = useState([]);
 
   const handleOpenModal = () => {
     setVisible(true);

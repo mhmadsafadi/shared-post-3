@@ -23,8 +23,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-// const userData=localStorage.getItem('data');
-// const testUserData =JSON.parse(userData);
-// const name =testUserData.name;
-// console.log("name");
-// console.log("data");
