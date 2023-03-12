@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <Row justify="space-between" className='hold-nav'>
-        <Link to='/'>
+        <Link to='/login'>
             <img src={logo} alt="Logo" width={50} />
         </Link>
         

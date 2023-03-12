@@ -74,13 +74,13 @@ function SignInForm() {
                     </Form.Item>
 
                   <Form.Item >
-                    <Button className='btn-submit' onClick={()=>navigate("/home")} htmlType="submit" block>Login</Button>
+                    <Button className='btn-submit' onClick={()=>navigate("/")} htmlType="submit" block>Login</Button>
                   </Form.Item>
       
      
                 </Form>
                 
-                <p className="para">Don't have an account? <Link to="/" >Sign up</Link></p>
+                <p className="para">Don't have an account? <Link to="/signup" >Sign up</Link></p>
             </div>
         </div>
   )
