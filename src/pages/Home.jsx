@@ -100,6 +100,9 @@ const Home = () => {
             />
           </Tooltip>
         </Row>
+        <PostList/>
+        <PostList/>
+        <PostList/>
       </div>
     </>
   );
