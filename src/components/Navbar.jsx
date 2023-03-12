@@ -1,24 +1,29 @@
 import React from 'react'
-import logo from '../../public/logo.svg'
+import logo from '../assets/logo.svg'
+import User from '../assets/user.svg'
 import {Link} from 'react-router-dom'
-import { Input } from 'antd';
+import { Input, Row } from 'antd';
 import { SearchOutlined, UserOutlined } from '@ant-design/icons';
+import Search from 'antd/es/input/Search';
 
 
 const Navbar = () => {
 
   return (
-    <navbar>
+    <Row justify="space-between" className='hold-nav'>
         <Link to='/'>
             <img src={logo} alt="Logo" width={50} />
         </Link>
-        <Input size="large" placeholder="large size" prefix={<SearchOutlined />} style={{ width: 400 }}/>
+        
+        <Search placeholder="Search" className='search-input' enterButton />
 
         <div className='user-nav-menu'>
-            <span>Heba</span>
-            <UserOutlined />
+            <span>John Smith</span>
+            <figure className='user-img'>
+              <img src={User} />
+            </figure>
         </div>
-    </navbar>
+    </Row>
   )
 }
 
