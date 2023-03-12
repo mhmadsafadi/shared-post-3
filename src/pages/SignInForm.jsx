@@ -1,5 +1,4 @@
 
-
 import {Row,Form,message,Input, Button, Typography } from 'antd';
 import { useState } from 'react';
 import Logo from '../../public/logo.svg';
@@ -44,12 +43,6 @@ function SignInForm() {
      console.log('Failed:', errorInfo);
    }; 
   return (
-    // <div className='form-wrapper'>
-    // <Typography.Title level={2}  style={{fontFamily:"'Open Sans', sans-serif",padding:"5%", margin: '0 auto',textAlign:"center",color:"#e93467" }}>Log In</Typography.Title>
-    // <p>Fill the following information to access your account!</p>
-    
-    //   </div>
-
         <div className="content-sec">
             <div className='form-wrapper'>
                 <div class="logo" style={{marginTop:"60px"}}>
