@@ -4,7 +4,7 @@ import { PlusOutlined,CloudUploadOutlined } from "@ant-design/icons";
 import Navbar from "../Components/Navbar.jsx";
 import PostList from "../Components/PostList.jsx";
 import CustomModal from "../Components/CustomModal/CustomModal.jsx";
-import"../index.css"
+import"../index.css";
 const Home = () => {
   const [visible, setVisible] = useState(false);
 

@@ -5,7 +5,7 @@ import { Input } from 'antd';
 import { SearchOutlined, UserOutlined } from '@ant-design/icons';
 
 
-const Navbar = () => {
+export const Navbar = () => {
 
   return (
     <navbar>
