@@ -46,6 +46,28 @@ const Home = () => {
     showSharePostModal()
   }
 
+  const handleSubmit = async (e, data) => {
+    e.preventDefault();
+    handleOpenModal();
+    const USER_API_URL = "https://hakathon2023.onrender.com/api/post/add";
+    await fetch(USER_API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+      },
+      body: JSON.stringify({
+        withCredentials: true,
+        text: data.text,
+        image: data.image,
+      }),
+    })
+      .then((response) => response.json())
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
   return (
     <>
       <Navbar />

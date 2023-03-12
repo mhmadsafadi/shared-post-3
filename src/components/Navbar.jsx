@@ -8,6 +8,7 @@ import Search from 'antd/es/input/Search';
 
 
 const Navbar = () => {
+
   return (
     <Row justify="space-between" className='hold-nav'>
         <Link to='/'>
@@ -27,3 +28,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+// const userData=localStorage.getItem('data');
+// const testUserData =JSON.parse(userData);
+// const name =testUserData.name;
+// console.log("name");
+// console.log("data");

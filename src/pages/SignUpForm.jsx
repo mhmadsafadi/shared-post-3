@@ -101,7 +101,7 @@ function SignUpForm() {
             <Button
               type="primary"
               className="btn-submit"
-              onClick={() => navigate("/home")}
+              onClick={() => navigate("/")}
               htmlType="submit"
               block
             >

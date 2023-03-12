@@ -1,5 +1,5 @@
 import React from 'react';
-import { Modal } from 'antd';
+import { Modal, Button } from 'antd';
 
 export const CustomModal = ({ open, title, content, onCancel }) => {
     return (
